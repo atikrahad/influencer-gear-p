@@ -98,3 +98,18 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* ===================main section */
+main{
+    max-width: 1050px;
+    margin: 20px auto;
+}
+
+/* sonsors */
+
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}

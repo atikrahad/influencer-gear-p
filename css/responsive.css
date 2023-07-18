@@ -19,10 +19,13 @@
         align-items: center;
         text-align: center;
     }
-    
+    .sponsors{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
     .banner-content p{
         padding: 10px 0;
-        line-height: 25px;
+        line-height: 35px;
     }
     .banner-content h1{
         font-size: var(--medium-font);
