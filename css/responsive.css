@@ -8,10 +8,18 @@
     header{
         margin: 20px;
     }
-    .banner-container{
+    .banner-container,
+    .product-container{
+        display: flex;
         flex-direction: column-reverse;
         gap: 50px;
     }
+    .products{
+        width: 90%;
+        padding-bottom: 20px;
+        margin:  0 auto;
+    }
+    
     .banner-content{
         display: flex;
         flex-direction: column;
