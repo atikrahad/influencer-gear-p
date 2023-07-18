@@ -1,0 +1,94 @@
+/* ======Sharing section */
+:root{
+    --main-color: #3A3A3A;
+    --product-title-0color:#18191F;
+    --big-font:3.25rem;
+    --medium-font:2.5rem;
+    --small-medium-font:1.75rem;
+    --small-font:1.5rem;
+    --smallest-font:1rem;
+    --font-w-b:700;
+    --font-w-m:600;
+    --font-w-s-m:500;
+    --font-w-s:400;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* NAv section==================================== */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: var(--main-color);
+    font-size: var(--small-medium-font);
+    font-weight: var(--font-w-b);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    color: var(--main-color);
+    font-size: var(--small-font);
+    font-weight: var(--font-w-m);
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: var(--small-font);
+    font-weight: var(--font-w-m);
+}
+
+/* header section css        */
+
+header{
+    max-width: 1150px;
+    margin:30px auto;
+    height: auto;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+.banner-content{
+    /* width: 50%; */
+}
+.banner-content h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+    font-weight: var(--font-w-b);
+}
+.banner-content p{
+    color: var(--main-color);
+    font-size: var(--smallest-font);
+    font-weight: var(--font-w-m);
+    padding-right: 300px;
+    margin-bottom: 20px;
+}
+.banner-content button{
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+}
+.banner-img{
+    /* width: 50%; */
+    height: 70vh;
+    background-image: url("../images/Circle\ design.svg");
+    background-size: cover;
+}
