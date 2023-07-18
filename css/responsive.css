@@ -1,0 +1,30 @@
+@media screen and (max-width:640px) {
+    nav p{
+        display: contents;
+    }
+    nav ul{
+        display: none;
+    }
+    header{
+        margin: 20px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .banner-content p{
+        padding: 10px 0;
+        line-height: 25px;
+    }
+    .banner-content h1{
+        font-size: var(--medium-font);
+    }
+}

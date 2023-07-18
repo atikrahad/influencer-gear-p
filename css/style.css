@@ -28,10 +28,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+nav p{
+    display: none;
+}
 nav h1{
     color: var(--main-color);
     font-size: var(--small-medium-font);
     font-weight: var(--font-w-b);
+}
+.list-container{
+    display: flex;
 }
 nav ul{
     display: flex;
@@ -88,7 +94,7 @@ header{
 }
 .banner-img{
     /* width: 50%; */
-    height: 70vh;
     background-image: url("../images/Circle\ design.svg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
